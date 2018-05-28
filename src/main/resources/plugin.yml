@@ -1,0 +1,23 @@
+name: ${project.name}
+main: com.cjburkey.bettersandmining.BetterSandMining
+authors: [ "CJ Burkey" ]
+database: false
+prefix: ${project.name}
+version: ${project.version}
+website: ${project.url}
+
+permission:
+  bettersandmining.sand:
+    description: 'Allow the usage of the BetterSandMining plugin for sand blocks'
+    default: true
+  bettersandmining.gravel:
+    description: 'Allow the usage of the BetterSandMining plugin for gravel blocks'
+    default: true
+  bettersandmining.toggle:
+    description: 'Allow the usage of the /bettersand command'
+    default: true
+
+commands:
+  bettersand:
+    description: 'Toggle whether or not sand and gravel blocks will be affected by BetterSandMining'
+    usage: '/<command>'

@@ -1,0 +1,7 @@
+/target/
+.classpath
+.project
+.settings/
+run/*
+!run/spigot-1.12.2.jar
+!run/server.properties

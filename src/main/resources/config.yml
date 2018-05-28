@@ -1,0 +1,9 @@
+bettersand:
+  enabledByDefault: true
+  fillWater: true
+  breakAbove: true
+  requireShovel: true
+
+language:
+  toggled: '&aToggled BetterSandMining'
+  noPermToggle: '&cYou do not have permission to toggle BetterSandMining'
